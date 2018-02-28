@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 
 class Subscribe extends Component {
   state = { 
@@ -44,6 +44,7 @@ class Subscribe extends Component {
  
   render() {
     return (
+      <div className='none'>
       <div className="form">
         <h3>Subscribe to us</h3>
         <form onSubmit={this.submitFormHandler}>
@@ -57,8 +58,9 @@ class Subscribe extends Component {
           <small>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</small>
         </form>
       </div>
-    );
+      </div>
+    )
   }
 }
 
-export default Subscribe;
+export default Subscribe

@@ -90,12 +90,17 @@ header, footer {
 
 /* SUBSCRIBE FORM */
 
+.none {
+  height: 200x;
+}
+
 .form {
   text-align: center;
   width: 350px;
   margin: 0 auto;
   margin-top: 20px;
   font-family: "Fajlla One";
+  /* display: none; */
 }
 
 .form h3 {
@@ -232,5 +237,138 @@ header, footer {
 .blocks .block:hover .veil {
   opacity: 0;
   transition: all 400ms ease-in-out;
+}
+
+/* POOL */
+
+.pool {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.pool-container {
+  display: flex;
+}
+
+.pool-container .pool-team {
+  padding: 20px;
+  flex-grow: 1;
+}
+
+.pool-team img {
+  width: 100%;
+}
+
+.pool-team div{
+  font-family: 'Fjalla One';
+  font-size: 18px;
+}
+
+/* TEAMS */
+
+.teams {
+  min-height: 800px;
+}
+
+.teams-search {
+  text-align: center;
+  padding: 20px 0;
+  background: #e6e6e6;
+}
+
+.teams-search input {
+  font-family: 'Roboto';
+  border-radius: 30px;
+  border: 1px solid lightgrey;
+  color: black;
+  font-size: 20px;
+  padding: 10px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.teams-search input:focus {
+  outline: none;
+}
+
+.teams-table {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.teams-table .teams-item {
+  width: 25%;
+  padding: 30px;
+  box-sizing: border-box;
+  text-align: center;
+  color: black;
+}
+
+.teams-item img {
+  width: 100%;
+}
+
+/* TEAM */
+
+.team-data-wrapper {
+  display: flex;
+}
+
+.left {
+  box-sizing: border-box;
+  padding: 10px 20px;
+}
+
+.right {
+  flex-grow: 1;
+  box-sizing: border-box;
+  border-left: 1px solid #b9b9b9;
+  padding: 0px 20px;
+}
+
+.left img {
+  margin-top: 30px;
+  width: 250px;
+}
+
+.team-data h1 {
+ color: #6d6d6d;
+}
+
+.squad {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.squad img {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.player {
+  position: relative;
+  width: 25%;
+  overflow: hidden;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.player h4 {
+  text-align: center;
+  color: #006bb6;
+}
+
+.player .node {
+  font-size: 14px;
+  padding: 4px 0;
+}
+
+.node span {
+  font-weight: 600;
 }
 

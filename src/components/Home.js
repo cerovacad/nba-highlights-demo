@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Featured from './Featured'
 import Subscribe from './Subscribe'
 import Blocks from './Blocks'
+import Pool from './Pool'
 
 
 const URL = 'http://localhost:3004/home'
@@ -29,7 +30,8 @@ class Home extends Component {
         <Featured slider={this.state.slider}/>
         <Subscribe/>
         <Blocks blocks={this.state.blocks}/>
-       </div>
+        <Pool/>
+        </div>
     );
   }
 }

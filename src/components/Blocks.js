@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import { Link } from 'react-router-dom'
 import Reveal from 'react-reveal'
 import 'animate.css/animate.css'
@@ -29,6 +29,6 @@ const Blocks = (props) => (
   <div className='blocks'>
     {generateBlocks(props.blocks)}
   </div>
-);
+)
 
-export default Blocks;
+export default Blocks
